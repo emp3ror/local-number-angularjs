@@ -9,6 +9,10 @@ Angularjs filter for Local (Hindu Arabic) Number system
 
 ###Installation
 
+Install using bower: `bower install mjt-local-number`
+
+Alternatively download the code and include the mjt-local-number.js file in your page.
+
 Add the 'mjtLocalNum' filter as a dependency of your AngularJS application:
 
 ```javascript
