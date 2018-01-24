@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8" />
+    <title>Hindu arabic number system</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <div class="container">
+            <div>1005897987 = {{ 1005897987 | localnum }}</div>
+            <div class="form-group">
+                <input type="text" ng-model="num" placeholder="enter a number">
+            </div>
+            <div>
+                {{num | localnum}}
+            </div>
+            
+        </div>
+    </div>
+    <div class="credits text-center">
+        <p>
+            <a>Comma system for local (hindu arabic) number system</a>
+        </p>
+        <p>
+            <a href="http://mjt.com.np">mjt.com.np</a>
+        </p>
+    </div>
+    <script src="https://code.angularjs.org/1.2.16/angular.js"></script>
+    <script src="../mjt-local-num.js"></script>
+    <script src="demo.js"></script>
+</body>
+</html>

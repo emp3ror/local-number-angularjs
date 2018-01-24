@@ -1,0 +1,17 @@
+{
+  "name": "mjt-local-number",
+  "version": "1.0.0",
+  "description": "local (hindu arabic) number system for commas",
+  "main": "mjt-local-num.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "local",
+    "number",
+    "system",
+    "hindu arabic"
+  ],
+  "author": "MJT",
+  "license": "MIT"
+}
