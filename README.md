@@ -3,11 +3,11 @@ Local number system
 
 Angularjs filter for Local (Hindu Arabic) Number system
 
-###Demo
+### Demo
 
 
 
-###Installation
+### Installation
 
 Install using bower: `bower install mjt-local-number`
 
@@ -19,9 +19,9 @@ Add the 'mjtLocalNum' filter as a dependency of your AngularJS application:
 angular.module('myApp', ['mjtLocalNum']);
 ```
 
-###Usage
+### Usage
 
-####HTML
+#### HTML
 
 ```html
 {{ 1005897987 | localnum }}
